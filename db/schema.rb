@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "costumes", force: :cascade do |t|
     t.string "name"
-    t.float "peice"
+    t.float "price"
     t.string "image_url"
     t.string "size"
     t.datetime "created_at", null: false
